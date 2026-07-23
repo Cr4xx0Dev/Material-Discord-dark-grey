@@ -15,12 +15,9 @@ A Material You (MD3 Expressive) fork of Material Discord.
 
 ## About the Project
 
-Ich hatte etwas Zeit und mir war langweilig, daher habe ich mich dazu entschlossen, einen Fork von Material Discord zu erstellen.
-
-Ich habe das Design angepasst, indem ich die Farben geändert, die UI-Elemente abgerundet und die Serveransicht überarbeitet habe.
-
-Ich würde mich sehr über Feedback freuen. Da mir selbst schon ein paar Bugs aufgefallen sind, werde ich mich zeitnah an die Fehlerbehebung machen. Alternativ könnt ihr mir natürlich auch gerne dabei helfen; ich bin jederzeit offen für eure Commits, sowohl auf GitHub als auch hier im Chat.
-
+Ich hatte etwas Zeit und mir war langweilig, I had some free time and was a bit bored, so I decided to create a fork of Material Discord.
+In this fork, I adjusted the overall design by tweaking the color palette, rounding various UI elements, and redesigning the server list view.
+I would really appreciate any feedback! I've already noticed a few bugs myself and will be working on fixing them soon. Alternatively, you're more than welcome to help out—I’m always open to your commits, both here on GitHub and in the chat.
 ---
 
 ## Preview
