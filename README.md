@@ -27,7 +27,7 @@ Ich würde mich sehr über Feedback freuen. Da mir selbst schon ein paar Bugs au
 
 | View 1 | View 2 |
 | :---: | :---: |
-| <img src="assets/preview1.png" width="100%"> | <img src="assets/preview2.png" width="100%"> |
+| <img src="assets/server.png" width="100%"> | <img src="assets/texting.png" width="100%"> |
 
 *Click on the images to view them in full resolution.*
 
