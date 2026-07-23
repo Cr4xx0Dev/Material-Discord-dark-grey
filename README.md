@@ -1,6 +1,7 @@
 <div align="center">
 
-# Material Discord (Dark Grey Fork)
+# Material Discord
+(Dark Grey Fork)
 
 A Material You (MD3 Expressive) fork of Material Discord.
 
