@@ -1,0 +1,91 @@
+/**
+ * @name Material-Discord-dark-grey
+ * @version 3.0.7
+ * @description a theme based on google's material design. forked from CapnKitten. toxiclemon and dm fork that i made.
+ * @author Cr4xx0Dev
+ *
+ * @website https://github.com/Cr4xx0Dev
+ * @source https://github.com/Cr4xx0Dev/Material-Discord-dark-grey
+ */
+
+@import url("https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/source.css");
+
+/* material you addon */
+@import url("https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/addons/material-you/source.css");
+
+/* ========================================================================== */
+/* COLOR SCHEME (DARK GREY WITH VISIBLE HIGHLIGHTS)                           */
+/* ========================================================================== */
+.theme-dark {
+    --saturation-modifier: 0;
+    --lightness-modifier: 0.3;
+    --text-lightness-modifier: 1.0;
+    
+    /* Main backgrounds */
+    --background-primary: #181818 !important;
+    --background-secondary: #222222 !important;
+    --background-secondary-alt: #262626 !important;
+    --background-tertiary: #121212 !important;
+    --background-floating: #242424 !important;
+    
+    /* Text input and interactions */
+    --channeltextarea-background: #2a2a2a !important;
+    --background-modifier-hover: rgba(255, 255, 255, 0.05) !important;
+    --background-modifier-active: rgba(255, 255, 255, 0.08) !important;
+    --background-modifier-selected: rgba(255, 255, 255, 0.12) !important;
+}
+
+:root {
+    /* UI Tile/Card Radii - 12px Squircles */
+    --message-radius: 12px !important;
+    --media-radius: 12px !important;
+    --card-radius: 12px !important;
+    --card-radius-big: 16px !important;
+    --button-radius: 12px !important;
+    --popout-radius: 12px !important;
+    --avatar-radius: 12px !important;
+    --server-radius: 12px !important;
+}
+
+/* ========================================================================== */
+/* FINAL UI POLISH (USER PANEL & SEARCH BAR)                                  */
+/* ========================================================================== */
+
+/* Fix user profile panel in bottom left */
+[class*="panels_"] {
+    border-radius: 12px !important;
+    background-color: #222222 !important;
+    margin: 4px;
+}
+
+/* Fix search bar rounding */
+[class*="searchBar_"] {
+    border-radius: 12px !important;
+    background-color: #2a2a2a !important;
+}
+
+/* Apply 12px squircle to messages, popouts, and general tiles */
+[class*="message_"],
+[class*="card_"],
+[class*="popout_"],
+[class*="modal_"],
+[class*="container_"] > [class*="content_"] {
+    border-radius: 12px !important;
+}
+
+/* ========================================================================== */
+/* STATUS DOT FIX (REVERTED TO CIRCULAR)                                      */
+/* ========================================================================== */
+
+/* Restores round status indicators for users */
+rect[mask*="url(#svg-mask-status-"] {
+    mask: url(#svg-mask-status-online) !important;
+    -webkit-mask: url(#svg-mask-status-online) !important;
+}
+
+/* Ensure avatars remain squircled but status dots stay round */
+foreignObject[mask*="url(#svg-mask-avatar-"] {
+    mask: none !important;
+    -webkit-mask: none !important;
+    border-radius: 12px !important;
+}
